@@ -1,10 +1,10 @@
 package edu.it;
 
 public class PilaStack {
-	public void m6(int x) {
+	public void m6(int x) { // agregar throws Exception
 		System.out.println("Llegue a m6");
 		if (x == 0) {
-			throw new RuntimeException("El valor del divisor es 0");
+			throw new Exception("El valor del divisor es 0");
 		}
 		int resultado = 10000 / x;
 		System.out.println("El valor de x es: " + x);
