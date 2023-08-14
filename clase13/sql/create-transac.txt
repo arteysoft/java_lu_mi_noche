@@ -1,0 +1,10 @@
+CREATE TABLE `bojack`.`movimientos` (
+   `movimiento` INT NOT NULL) 
+ENGINE = InnoDB;
+
+CREATE TABLE `bojack`.`saldos` (
+   `saldo` INT NOT NULL) 
+ENGINE = InnoDB;
+
+insert into saldos values (0);
+
