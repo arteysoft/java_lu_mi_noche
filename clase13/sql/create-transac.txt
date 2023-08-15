@@ -1,8 +1,8 @@
-CREATE TABLE `bojack`.`movimientos` (
+CREATE TABLE `java_lu_mi_noche`.`movimientos` (
    `movimiento` INT NOT NULL) 
 ENGINE = InnoDB;
 
-CREATE TABLE `bojack`.`saldos` (
+CREATE TABLE `java_lu_mi_noche`.`saldos` (
    `saldo` INT NOT NULL) 
 ENGINE = InnoDB;
 

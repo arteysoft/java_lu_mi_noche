@@ -1,0 +1,15 @@
+Que son los numeros primos.
+
+Son aquellos numeros que SOLO se pueden dividir por si mismos y por uno ?
+                           -> NO TIENE RAICES
+
+1, 2, 3, 5, 7, 11, 13, 17  -> No tienen raices
+
+La serie de numeros primos, no se conoce, solo se puede probar y errar.
+
+Hay que hacer este algoritmo, pero.
+Los numeros primos que voy encontrando los voy volcando a SQL.
+
+Para que ? porque en verdad para seguir descubriendo numeros primos
+necesito saber los anteriores.
+
