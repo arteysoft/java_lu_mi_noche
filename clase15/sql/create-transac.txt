@@ -1,0 +1,5 @@
+CREATE TABLE `java_lu_mi_noche`.`numeros_primos` (
+   `numero` INT NOT NULL)
+ENGINE = InnoDB;
+
+insert into numeros_primos values (2);
