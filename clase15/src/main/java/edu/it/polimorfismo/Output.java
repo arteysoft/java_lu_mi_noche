@@ -1,6 +1,6 @@
 package edu.it.polimorfismo;
 
-public interface Ouput {
+public interface Output {
 	public void informarNumeroEstudiar(int x);
 	public void informarNumeroPrimoEncontrado(int x);
 }
