@@ -16,3 +16,36 @@ como verificar su correcto funcionamiento
 
 Elijo el browser y voy a la url localhost:8080
 
+curl es un utilitario para hacer consultas por http
+
+http tiene cuatro verbos,
+
+GET Traer informacion (HTML, JSON, XML, Imagenes)
+POST Enviar informacion (JSON, Formularios)
+PUT Enviar informacion y actualizarla
+DELETE Indicarle al HTTP Server que debe borrar un determinado recurso
+
+El browser, por default me emite un GET
+
+con curl -i localhost:8080
+
+Me va a decir como viene la respuesta
+
+C:\Users\andy>curl -i localhost:8080
+HTTP/1.1 200
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 Sep 2023 00:44:25 GMT
+
+Estas son las cabeceras que retorna el HTTP Server
+
+Ahora si le ponemos curl -v localhost:8080
+
+Me va a poner las cabeceras de ida y vuelta.
+
+
+
+
+
+
+
