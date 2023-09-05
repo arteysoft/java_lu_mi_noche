@@ -44,8 +44,35 @@ Ahora si le ponemos curl -v localhost:8080
 Me va a poner las cabeceras de ida y vuelta.
 
 
+C:\Users\andy>curl -i -v localhost:8080
+
+Cabeceras de Request
+
+GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.0.1
+Accept: */*
+
+Cabeceras de Response
+
+HTTP/1.1 200
+Content-Type: text/html;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 05 Sep 2023 00:46:32 GMT
 
 
+Content-Type: text/html; HAY QUE DARLE BOLA ****************
+HTTP/1.1 200             HAY QUE DARLE BOLA ****************
+localhost:8080           IMPORTANTE !!!!
+User-Agent               Es el browser o la aplicacion cliente
 
 
+Tarea para la proxima
+
+Bajar postman
+
+https://www.postman.com/downloads/
+
+Hacer un get contra localhost:8080
+Hacer un get contra localhost:8080/docs
 
