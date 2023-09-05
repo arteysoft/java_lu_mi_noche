@@ -1,0 +1,18 @@
+Como hago para bajar e instalar tomcat
+
+https://tomcat.apache.org/download-90.cgi
+
+SELECCIONO 64-bit Windows zip (pgp, sha512)
+
+copio de downloads/apache-tomcat-9.0.80 el contenido del zip
+a /opt/apache-tomcat-9.0.80
+
+como hago para correr tomcat
+
+cd /opt/apache-tomcat-9.0.80/bin
+java -cp tomcat-juli.jar;bootstrap.jar org.apache.catalina.startup.Bootstrap
+
+como verificar su correcto funcionamiento
+
+Elijo el browser y voy a la url localhost:8080
+
