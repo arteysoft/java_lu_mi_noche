@@ -1,0 +1,31 @@
+Servlet
+
+Que es un servlet
+
+En principio, es una interfaz que me permite interactuar con servicios HTTP
+
+Por ejemplo, si llega un HTTP POST va a ingresar en el tomcat y este va a
+instanciar una clase. Luego de instanciar la clase va a invocar al metodo
+doPost que es parte del objeto.
+
+Lo mismo para el GET doGet
+lo mismo para el PUT doPut
+Lo mismo para el DELETE doDelete
+
+Como es un tipico intercambio de datos entre un cliente http y un servidor
+http ?
+
+Es el llamado REST API.
+
+Que consiste en utilizar los verbos http GET, POST, PUT, DELETE.
+
+Cada uno en su funcion
+
+GET SELECT FETCH
+POST INSERT
+PUT UPDATE Actualiza
+DELETE DELETE BORRA
+
+Este intercambio se hace en formato JSON el formato json esta indicado
+para los servicios rest y esta descrito en https://www.json.org/json-en.html
+
