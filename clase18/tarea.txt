@@ -1,0 +1,19 @@
+Tarea para clase 19
+
+Le hago un post a un servicio (a un controller) con un objeto
+
+{
+   numero: 13
+}
+
+el post va a retornarme si es primo 200
+si NO es primo 400 el codigo que se aplica cuando es solicitud incorrecta
+
+200 OK
+201 INSERTADO
+
+400 Bad Request
+
+Tambien se puede retornar un json pero solo eventualmente lo mas importante
+en el post es el codigo de retorno.
+
