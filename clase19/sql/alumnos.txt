@@ -1,0 +1,10 @@
+CREATE TABLE alumnos (
+  id VARCHAR(36) NOT NULL,
+  nombre VARCHAR(255) NOT NULL,
+  apellido VARCHAR(255) NOT NULL,
+  calle VARCHAR(255) NOT NULL,
+  calleNumero VARCHAR(255) NOT NULL,
+  estado VARCHAR(255) NOT NULL,
+  pais VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);
