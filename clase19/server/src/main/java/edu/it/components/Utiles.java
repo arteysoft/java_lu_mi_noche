@@ -3,9 +3,11 @@ package edu.it.components;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.UUID;
 
 import com.github.javafaker.Faker;
+import com.google.gson.Gson;
 
 import edu.it.model.Alumno;
 
@@ -39,5 +41,12 @@ public class Utiles {
 		catch (Exception ex) {
 			throw new RuntimeException(ex.getMessage());
 		}
+	}
+	public static String claveValorToJson(String clave, String valor) {
+		HashMap<String, String> hm = new HashMap<String, String>();
+		
+		hm.put(clave, valor);
+		
+		return new Gson().toJson(hm);
 	}
 }
