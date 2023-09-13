@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>security</filter-name>
+    <filter-class>edu.it.filtros.SecurityFilter</filter-class>
+  </filter>
+  
+    <filter-mapping>
+    <filter-name>security</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  
+  <servlet>
+    <servlet-name>alumno</servlet-name>
+    <servlet-class>edu.it.controllers.AlumnoController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>id_inventar</servlet-name>
+    <servlet-class>edu.it.controllers.InventarAlumnoController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>id_primerController</servlet-name>
+    <servlet-class>edu.it.controllers.PruebaController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>id_loginController</servlet-name>
+    <servlet-class>edu.it.controllers.LoginController</servlet-class>
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>alumno</servlet-name>
+    <url-pattern>/alumno</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alumno</servlet-name>
+    <url-pattern>/alumno/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>id_inventar</servlet-name>
+    <url-pattern>/inventar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>id_primerController</servlet-name>
+    <url-pattern>/primercontroller</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>id_primerController</servlet-name>
+    <url-pattern>/andy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>id_loginController</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+</web-app>
