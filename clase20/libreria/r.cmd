@@ -1,0 +1,1 @@
+java -jar target\LibCalculadora-1.0.jar miApp

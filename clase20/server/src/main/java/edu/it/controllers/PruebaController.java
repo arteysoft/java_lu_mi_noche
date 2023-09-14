@@ -2,7 +2,6 @@ package edu.it.controllers;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Random;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -25,7 +24,10 @@ public class PruebaController extends HttpServlet {
         	xs[x] = (int)(Math.random() * 1500);
         }
         
-        out.println(new Gson().toJson(xs));
+        var pv = new com.calc.model.PrecioVolatilidad(4f, 20);
+        System.out.println(new Gson().toJson(pv));
+        
+        out.println(new Gson().toJson(pv));
         
         response.setStatus(200);        
         out.close();
